@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Final Game</title>
+<link href="css.css" type=text/css rel=stylesheet>
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/game.js"></script>
+<script src="js/ajax.js"></script>
+</head>
+<body>
+<header>
+  <div class="h_container">
+    <div class="logo"></div>
+    <ui class="menu">
+      <li><a href="#">Games</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">FAQ</a></li>
+    </ui>
+  </div>
+</header>
+<div class="main_bg">
+  <div class="game_bg"></div>
+  <div class="container">
+
+    <div id="game" class="game_box">
+      <div id="score">Score: <span>0</span></div>
+      <!-- game's view is here -->
+
+      <div class="bar"></div>
+      <div id="startBtn">Start</div>
+    </div>
+
+    <div class="ui-widget-tabs">
+      <ul class="ui-widget-header">
+        <li><a href="#tabs-1">GAME</a></li>
+        <li><a href="#tabs-2">SCORES</a></li>
+      </ul>
+      <div id="tabs-1" class="tab_con">
+        <div class="bd">
+          <div class="l_side">
+            <h3>Instructions</h3>
+            <p>Destroy Enemy Invaders before they reach the ground.</p>
+            <p>Watch out for enemy fire!</p>
+          </div>
+          <div class="r_side">
+            <h3>Controls</h3>
+            <p>A - Move Left</p>
+            <p>D - Move Right</p>
+            <p>Space Bar - Fire</p>
+          </div>
+        </div>
+      </div>
+      <div id="tabs-2" class="tab_con">
+        <div class="bd">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <p>&copy 2014 Crazy Game Company Title inc.</p>
+  <i class="l"></i>
+  <i class="r"></i>
+</footer>
+
+</body>
+</html>
